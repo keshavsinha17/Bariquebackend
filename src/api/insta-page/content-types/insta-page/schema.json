@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "insta_pages",
+  "info": {
+    "singularName": "insta-page",
+    "pluralName": "insta-pages",
+    "displayName": "InstaPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "instaURL": {
+      "type": "string",
+      "required": true
+    },
+    "instaImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

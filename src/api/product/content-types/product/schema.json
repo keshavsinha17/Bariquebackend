@@ -1,0 +1,118 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "colors": {
+      "type": "json",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "category": {
+      "type": "json",
+      "required": true
+    },
+    "stock": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "new": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "rings": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "earring": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "necklaces": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "cuffs": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "belts": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "groomset": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "stockNumber": {
+      "type": "integer",
+      "default": 1
+    },
+    "Festive_Occassion": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Fusion_Occassion": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "BQJ_Occassion": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Dahr_Collection": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Zariya_Collection": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Inara_Collection": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "collection_navbars",
+  "info": {
+    "singularName": "collection-navbar",
+    "pluralName": "collection-navbars",
+    "displayName": "Collection_Navbar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Type": {
+      "type": "string",
+      "required": true,
+      "maxLength": 21,
+      "minLength": 3
+    },
+    "Links": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

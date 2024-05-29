@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "occassion_navbars",
+  "info": {
+    "singularName": "occassion-navbar",
+    "pluralName": "occassion-navbars",
+    "displayName": "Occassion_Navbar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 20,
+      "minLength": 3
+    },
+    "Links": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coupons",
+  "info": {
+    "singularName": "coupon",
+    "pluralName": "coupons",
+    "displayName": "Coupon",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "couponName": {
+      "type": "string",
+      "required": true
+    },
+    "discountPercentage": {
+      "type": "integer",
+      "required": true,
+      "max": 100
+    },
+    "couponInfo": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
